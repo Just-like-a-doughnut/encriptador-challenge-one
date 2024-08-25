@@ -14,7 +14,7 @@ function validarTexto() {
     let validador = textoEscrito.match(/^[a-z\s]*$/); // Permitir también espacios
 
     if (!validador || textoEscrito.trim() === "") {
-        alert("Solo son permitidas letras minúsculas, sin acentos y espacios");
+        alert("Solo son permitidas letras minúsculas, sin acentos ni caracteres especiales");
         return false;
     }
     return true;
