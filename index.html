@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="icon" type="image/png" href="./img/icono.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenido-header">
+            <img class="logo" src="./img/logo-alura-con-millow.png" alt="Logo de Alura con Millow">
+            <h1 class="texto-encabezado">Millow</h1>
+        </div>
+    </header>
+    <main>
+        <div class="encriptador">
+            <div class="contenedor-izquierdo">
+                <div class="contenedor-texto-usuario">
+                    <textarea class="entrada-texto" id="entradaUsuario" placeholder="Ingresa el texto aquí"></textarea>
+                    <p id="texto-instrucciones">&#9888; Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones-ed">
+                    <button class="boton-1" id="encriptarTexto">Encriptar</button>
+                    <button class="boton-2" id="desencriptarTexto">Desencriptar</button>
+                </div>
+            </div>
+            <div class="contenedor-derecho">
+                <div class="noTexto">
+                    <div class="imagen-contenedor">
+                        <img src="./img/millow-recuadro-2.png" alt="Millow" class="contenedor-imagen">
+                    </div>
+                    <div class="mensaje-noTexto" id="mensajeNoTexto">
+                        <p class="texto-1">Ningún mensaje fue encontrado</p>
+                        <p class="texto-2">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                </div>
+                <div class="texto_encriptado" id="contenedorTextoEncriptado">
+                    <div class="cuadro-texto-encriptado">
+                        <p id="textoEncriptado"></p>
+                    </div>
+                    <button class="boton-copiar" id="copiarTexto">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&#9885; Akemi - Alura Challenges - ONE</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
