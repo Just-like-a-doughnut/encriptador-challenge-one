@@ -55,4 +55,3 @@ Siendo esto lo principal que debe contener, se desarrolla y se personaliza segú
 
 ## 💌 Agradecimientos
 El desarrollo de este proyecto no sería posible sin el aprendizaje adquirido gracias al programa ONE y Alura Latam. Agradezco el trabajo de todos los instructores de Alura por sus enseñanzas en cada uno de los cursos dictados.
-<h3 align="center"><strong>#AluraLatam #OracleNextEducation #ChallengeOneLogicaLatam</strong></h3>
